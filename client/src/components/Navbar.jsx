@@ -1,10 +1,18 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <span className="navbar-brand mb-0 h1">
+        <Link className="navbar-brand" to="/">
           Hospital Appointment System
-        </span>
+        </Link>
+
+        <div>
+          <Link to="/login" className="btn btn-light">
+            Login
+          </Link>
+        </div>
       </div>
     </nav>
   );
