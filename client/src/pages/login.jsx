@@ -6,7 +6,7 @@ function Login() {
       <Navbar />
 
       <div className="container mt-5">
-        <h2>Login Page</h2>
+        <h2>Login Page example</h2>
       </div>
     </>
   );

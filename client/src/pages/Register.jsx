@@ -6,7 +6,7 @@ function Register() {
       <Navbar />
 
       <div className="container mt-5">
-        <h2>Register Page</h2>
+        <h2>Register Page example</h2>
       </div>
     </>
   );

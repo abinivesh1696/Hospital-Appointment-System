@@ -7,7 +7,7 @@ function Home() {
       <Navbar />
 
       <div className="container mt-5">
-        <h2>Home Page</h2>
+        <h2>Home Page format</h2>
       </div>
     </>
   );
