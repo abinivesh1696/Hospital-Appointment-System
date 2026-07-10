@@ -9,10 +9,14 @@ function Navbar() {
         </Link>
 
         <div>
-          <Link to="/login" className="btn btn-light">
-            Login
-          </Link>
-        </div>
+  <Link to="/login" className="btn btn-light me-2">
+    Login
+  </Link>
+
+  <Link to="/register" className="btn btn-warning">
+    Register
+  </Link>
+</div>
       </div>
     </nav>
   );
