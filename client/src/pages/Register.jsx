@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import MainLayout from "../layouts/MainLayout";
 
 function Register() {
   return (
-    <>
-      <Navbar />
-
+      <MainLayout>
       <div className="container mt-5" style={{ maxWidth: "400px" }}>
         <h2 className="text-center mb-4">Register</h2>
 
@@ -45,7 +43,7 @@ function Register() {
           </p>
         </form>
       </div>
-    </>
+      </MainLayout>
   );
 }
 

@@ -1,19 +1,12 @@
-import { Link } from "react-router-dom";
+import MainLayout from "../layouts/MainLayout";
+import Hero from "../components/Hero";
 
-function Hero() {
+function Home() {
   return (
-    <div className="container text-center mt-5">
-      <h1>Book Your Hospital Appointment</h1>
-
-      <p className="mt-3">
-        Find doctors, schedule appointments, and manage your health online.
-      </p>
-
-      <Link to="/login" className="btn btn-primary mt-3">
-        Book Appointment
-      </Link>
-    </div>
+    <MainLayout>
+      <Hero />
+    </MainLayout>
   );
 }
 
-export default Hero;
+export default Home;

@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import MainLayout from "../layouts/MainLayout";
 
 function Login() {
   return (
-    <>
-      <Navbar />
-
+    <MainLayout>
       <div className="container mt-5" style={{ maxWidth: "400px" }}>
         <h2 className="text-center mb-4">Login</h2>
 
@@ -31,12 +29,13 @@ function Login() {
           <button type="submit" className="btn btn-primary w-100">
             Login
           </button>
+
           <p className="text-center mt-3">
-              Don't have an account? <Link to="/register">Register</Link>
+            Don't have an account? <Link to="/register">Register</Link>
           </p>
         </form>
       </div>
-    </>
+    </MainLayout>
   );
 }
 
