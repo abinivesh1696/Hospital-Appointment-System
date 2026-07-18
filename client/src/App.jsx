@@ -5,11 +5,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Doctors from "./pages/Doctors";
 import DoctorDetails from "./pages/DoctorDetails";
-<<<<<<< HEAD
 import Login from "./pages/login";
-=======
-import Login from "./pages/Login";
->>>>>>> 710c66010cb11e5015cf1550799fabbbd3c5ecf2
 import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
