@@ -185,7 +185,11 @@ function Register() {
                 </label>
                 <input
                   type="text"
+<<<<<<< HEAD
                   placeholder="e.g. +91 9876543210"
+=======
+                  placeholder="e.g. +1 555-0100"
+>>>>>>> 710c66010cb11e5015cf1550799fabbbd3c5ecf2
                   className="w-full px-4 py-2 border border-slate-200 dark:border-slate-700 rounded-lg bg-slate-50 dark:bg-slate-950 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500/20"
                   {...register("phone")}
                 />
@@ -285,7 +289,11 @@ function Register() {
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-500 uppercase mb-1.5">
+<<<<<<< HEAD
                       Consultation Fee (🫱🏻‍🫲🏻Rupees)
+=======
+                      Consultation Fee ($ USD)
+>>>>>>> 710c66010cb11e5015cf1550799fabbbd3c5ecf2
                     </label>
                     <input
                       type="number"
