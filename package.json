@@ -1,0 +1,15 @@
+{
+  "name": "hospital-appointment-system-root",
+  "version": "1.0.0",
+  "description": "Root package config for Hospital Appointment System",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "node server/utils/seed.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
