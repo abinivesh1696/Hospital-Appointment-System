@@ -90,7 +90,7 @@ function Home() {
                   
                   <div className="mt-6 p-4 rounded-xl bg-sky-50 dark:bg-sky-950/20 border border-sky-100 dark:border-sky-900/40 text-center">
                     <p className="text-xs text-slate-500 dark:text-slate-400">Need Immediate Advice?</p>
-                    <p className="text-lg font-bold text-sky-600 dark:text-sky-400 mt-1">+91 9514063498</p>
+                    <p className="text-lg font-bold text-sky-600 dark:text-sky-400 mt-1">+91 9514063456</p>
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ function Home() {
               </div>
               <div>
                 <p className="text-3xl font-extrabold text-slate-900 dark:text-white">10+</p>
-                <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Specialist Clinicians</p>
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Specialist Physicians</p>
               </div>
             </div>
 

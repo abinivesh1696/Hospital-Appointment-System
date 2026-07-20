@@ -17,7 +17,7 @@ function MainLayout({ children }) {
             <div>
               <span className="text-lg font-bold text-sky-600 dark:text-sky-400">🏥 SmartCare HMS</span>
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                Modern Hospital Appointment & Doctor Consultation Portal.
+                Modern Hospital Care & Service Appointment with Doctor Consultation Portal.
               </p>
             </div>
             <div className="flex space-x-6 text-sm text-slate-500 dark:text-slate-400">
