@@ -52,7 +52,7 @@ function About() {
             <div className="bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 glass">
               <span className="text-sky-655 dark:text-sky-400 text-lg font-bold block mb-2">Our Vision</span>
               <p className="text-slate-600 dark:text-slate-350 italic">
-                "To transform ourselves into a center of excellence in healthcare service, Redefining Patient-Doctor Collaboration."
+                "To transform ourselves into a center of excellence in healthcare service, values clinical time, and automates records keeping."
               </p>
               <div className="mt-6 border-t border-slate-200 dark:border-slate-700 pt-4 flex items-center space-x-3">
                 <div className="w-10 h-10 bg-sky-100 dark:bg-sky-950 rounded-full flex items-center justify-center text-sky-600 font-bold">CS</div>
