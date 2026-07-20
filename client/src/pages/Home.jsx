@@ -43,7 +43,7 @@ function Home() {
                 </span>
               </h1>
               <p className="mt-4 text-base text-slate-500 dark:text-slate-450 sm:mt-5 sm:text-xl lg:text-lg">
-                Connect with highly qualified doctors across departments. Book appointments instantly, check consultation fees, and access prescriptions all in one place.
+                Connect with highly qualified doctors across departments. Book appointments instantly, check consultation fees, and access all prescriptions in one place.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
