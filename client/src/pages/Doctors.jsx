@@ -89,7 +89,7 @@ function Doctors() {
           <div className="mb-10 text-center sm:text-left">
             <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white">Certified Specialists</h1>
             <p className="mt-2 text-slate-500 dark:text-slate-400">
-              Browse qualified clinicians, select filters, and book consultation timings.
+              Browse qualified physicians, select filters, and book consultation timings.
             </p>
           </div>
 
