@@ -72,9 +72,6 @@ function Contact() {
                   </span>
                 </div>
               </div>
-                  </span>
-                </div>
-              </div>
             </div>
 
             {/* Inquiry Form */}
