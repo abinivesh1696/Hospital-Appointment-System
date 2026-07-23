@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import { FiArrowRight, FiUsers, FiAward, FiShield } from "react-icons/fi";
+import { FiArrowRight, FiUsers, FiAward, FiShield, FiCalendar, FiUserPlus } from "react-icons/fi";
 
 function Home() {
   const departments = [
@@ -53,6 +53,12 @@ function Home() {
                   >
                     Find a Doctor
                     <FiArrowRight className="ml-2 w-5 h-5" />
+                  </Link>
+                  <Link
+                    to="/doctors"
+                    className="inline-flex items-center justify-center px-6 py-3 border border-sky-200 dark:border-sky-800 text-base font-medium rounded-lg text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-950/30 hover:bg-sky-100 dark:hover:bg-sky-950/50 transition-all"
+                  >
+                    Book Appointment
                   </Link>
                   <Link
                     to="/register"
@@ -130,6 +136,87 @@ function Home() {
               <div>
                 <p className="text-3xl font-extrabold text-slate-900 dark:text-white">100%</p>
                 <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Verified Certifications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Quick Actions Section */}
+      <div className="py-16 sm:py-24 bg-white dark:bg-slate-900 transition-colors duration-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white">Quick Booking and Doctor Setup</h2>
+            <p className="mt-4 text-base text-slate-500 dark:text-slate-400">
+              Use the booking path to schedule an appointment, or open the admin panel to add and manage doctor profiles.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/60 rounded-3xl p-6 sm:p-8 shadow-sm">
+              <div className="flex items-center space-x-3 mb-5">
+                <div className="p-3 rounded-2xl bg-sky-100 dark:bg-sky-950/40 text-sky-600 dark:text-sky-400">
+                  <FiCalendar className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white">Book a Doctor</h3>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">Select a specialist and reserve a consultation slot.</p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
+                <div className="flex items-start space-x-3">
+                  <span className="mt-1 w-2 h-2 rounded-full bg-sky-500"></span>
+                  <span>Search by department or doctor name from the doctors page.</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="mt-1 w-2 h-2 rounded-full bg-sky-500"></span>
+                  <span>Open a doctor profile to enter date, time, and symptoms.</span>
+                </div>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  to="/doctors"
+                  className="inline-flex items-center px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-sm font-semibold transition"
+                >
+                  Browse Doctors
+                </Link>
+                <Link
+                  to="/doctors"
+                  className="inline-flex items-center px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition"
+                >
+                  Open Booking Flow
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/60 rounded-3xl p-6 sm:p-8 shadow-sm">
+              <div className="flex items-center space-x-3 mb-5">
+                <div className="p-3 rounded-2xl bg-emerald-100 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400">
+                  <FiUserPlus className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white">Add a Doctor</h3>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">Admin users can create a new doctor profile in the dashboard.</p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-dashed border-emerald-200 dark:border-emerald-900 bg-white/70 dark:bg-slate-900/40 p-4 text-sm text-slate-600 dark:text-slate-300">
+                <p className="font-semibold text-slate-900 dark:text-white mb-2">Sample doctor entry</p>
+                <p>Name: Dr. Meera Sharma</p>
+                <p>Specialization: Cardiology</p>
+                <p>Fee: $50 | Hospital: SmartCare Central</p>
+                <p className="mt-2 text-xs text-slate-400">This mirrors the form in Dashboard &gt; Manage Doctors.</p>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  to="/dashboard?tab=doctors"
+                  className="inline-flex items-center px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold transition"
+                >
+                  Open Add Doctor Panel
+                </Link>
               </div>
             </div>
           </div>
